@@ -9,7 +9,7 @@ int main()
 	for(int i = 0; i<35 ; i++)
 	{
 		float t = get_time(i);
-		cout << "Tiempo: " << t <<" " << "Fibonacci: " << i << endl;
+		cout << t << "," << i << endl;
 	}	
 	return 0;
 }

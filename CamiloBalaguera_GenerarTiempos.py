@@ -15,4 +15,4 @@ def get_time(N):
 	return t1
 
 for i in range(35):
-	print(i , " ", get_time(i), )
+	print(i , ",", get_time(i))
